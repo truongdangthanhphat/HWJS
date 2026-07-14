@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Dự án Hình ảnh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Thư viện Ảnh</h1>
+    
+    <!-- Vùng hiển thị kết quả -->
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <!-- Các ảnh nhỏ -->
+    <div class="gallery">
+        <img class="preview" src="anh1.jpg" alt="Mô tả ảnh 1" onmouseover="upDate(this)" onmouseleave="unDo()">
+        <img class="preview" src="anh2.jpg" alt="Mô tả ảnh 2" onmouseover="upDate(this)" onmouseleave="unDo()">
+        <img class="preview" src="anh3.jpg" alt="Mô tả ảnh 3" onmouseover="upDate(this)" onmouseleave="unDo()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
