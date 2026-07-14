@@ -17,3 +17,25 @@
     margin: 10px;
     cursor: pointer;
 }
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.preview-item {
+    text-align: center;
+    margin: 0;
+}
+
+.preview-item img {
+    display: block;
+    margin: 0 auto 5px auto;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
