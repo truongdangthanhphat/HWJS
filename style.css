@@ -1,0 +1,19 @@
+#image {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #555;
+}
+
+.preview {
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
